@@ -1,0 +1,40 @@
+
+
+body {
+  background-color: #F4DDE4;
+  color: #333;
+}
+
+
+.container {
+  max-width: 1420px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+.header {
+  padding: 25px 0;
+}
+
+.header__title {
+  font-size: 32px;
+  text-align: center;
+}
+
+
+.buttons {
+  padding-top: 45px;
+}
+
+.buttons__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.buttons__btn {
+  padding: 15px 40px;
+  background-color: #3C1053;
+  color: #fff;
+  border-radius: 8px;
+}

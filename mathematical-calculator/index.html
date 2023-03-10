@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="../css/mathematical-calculator/style.css">
+    <script src="../js/mathematicalCalculator.js" defer></script>
+    <title>Математический калькулятор</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="header__title">Математический калькулятор</h1>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="equation">
+            <div class="section">
+                <h2 class="equation__title title">Нахождение корней квадратного уравнения</h2>
+                <div class="equation__inner inner">
+                    <input class="equation__input input">
+                    <input class="equation__input input">
+                    <input class="equation__input input">
+                    <button class="equation__btn btn">Вычислить</button>
+                </div>
+            </div>
+
+            <div class="equation__output output">
+                <p class="equation__output-text text">Ответ:</p>
+            </div>
+        </section>
+
+        <section class="pythagoras">
+            <div class="section">
+                <h2 class="pythagoras__title title">Проверка числа на тройку Пифагора</h2>
+                <div class="pythagoras__inner inner">
+                    <input class="pythagoras__input input">
+                    <input class="pythagoras__input input">
+                    <input class="pythagoras__input input">
+                    <button class="pythagoras__btn btn">Вычислить</button>
+                </div>
+            </div>
+
+            <div class="pythagoras__output output">
+                <p class="pythagoras__output-text text">Ответ:</p>
+            </div>
+        </section>
+        <section class="dividers">
+            <div class="section">
+                <h2 class="dividers__title title">Делители числа</h2>
+                <div class="dividers__inner inner">
+                    <input class="dividers__input input">
+                    <button class="dividers__btn btn">Вычислить</button>
+                </div>
+            </div>
+
+            <div class="dividers__output output">
+                <p class="dividers__output-text text">Ответ:</p>
+            </div>
+        </section>
+
+        <section class="common">
+            <div class="section">
+                <h2 class="common__title title">Общие делители двух чисел и наибольший общий делитель</h2>
+                <div class="common__inner inner">
+                    <input class="common__input input">
+                    <input class="common__input input">
+                    <button class="common__btn btn">Вычислить</button>
+                </div>
+            </div>
+
+            <div class="common__output output">
+                <p class="common__output-text text">Общие делители:</p>
+                <p class="common__output-text text">Наибольший общий делитель:</p>
+                <p class="common__output-text text">Наименьше число которое делиться на 1 и 2 число:</p>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

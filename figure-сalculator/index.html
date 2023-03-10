@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="../css/figure-сalculator/style.css">
+    <script src="../js/figureCalculator.js" defer></script>
+    <title>Главная страница</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="header__title">
+                Калькулятор фигур
+            </h1>
+
+            <a href="../index.html" class="header__link"><img src="../images/arrow-icon.png" alt="" class="header__icon"></a>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="square">
+            <h2 class="square__title title">Площадь и периметр квадрата</h2>
+            <div class="square__inner inner">
+                <input type="text" class="square__input input">
+                <button class="square__btn">Вычислить</button>
+            </div>
+
+            <div class="square__output output">
+                <p class="square__output-text text">Периметр квадрата = </p>
+                <p class="square__output-text text">Площадь квадрата = </p>
+            </div>
+        </section>
+
+        <section class="rectangle">
+            <h2 class="rectangle__title title">Площадь и периметр прямоугольника</h2>
+            <div class="rectangle__inner inner">
+                <input type="text" class="rectangle__input input">
+                <input type="text" class="rectangle__input input">
+                <button class="rectangle__btn">Вычислить</button>
+            </div>
+
+            <div class="rectangle__output output">
+                <p class="rectangle__output-text text">Периметр прямоугольника = </p>
+                <p class="rectangle__output-text text">Площадь прямоугольника = </p>
+            </div>
+        </section>
+
+        <section class="circle">
+            <h2 class="circle__title title">Площадь круга и длину окружности</h2>
+            <div class="circle__inner inner">
+                <input type="text" class="circle__input input">
+                <button class="circle__btn">Вычислить</button>
+            </div>
+
+            <div class="circle__output output">
+                <p class="circle__output-text text">Площадь круга = </p>
+                <p class="circle__output-text text">Длина окружности = </p>
+            </div>
+        </section>
+
+        <section class="triangle">
+            <h2 class="triangle__title title">Площадь треугольника по трем сторонам</h2>
+            <div class="triangle__inner inner">
+                <input type="text" class="triangle__input input">
+                <input type="text" class="triangle__input input">
+                <input type="text" class="triangle__input input">
+                <button class="triangle__btn">Вычислить</button>
+            </div>
+
+            <div class="triangle__output output">
+                <p class="triangle__output-text text">Площадь треугольника = </p>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

@@ -1,0 +1,59 @@
+
+
+body {
+  background-color: #F4DDE4;
+  color: #333;
+}
+
+
+.container {
+  max-width: 1420px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+.header {
+  padding: 15px 0;
+}
+
+.header__title {
+  font-size: 32px;
+  text-align: center;
+}
+
+.header__icon {
+  width: 32px;
+  height: 32px;
+  transform: rotate(180deg);
+}
+
+.main {
+  padding: 5px 0;
+}
+
+.title {
+  font-size: 32px;
+  text-align: center;
+}
+
+.inner {
+  display: flex;
+  justify-content: center;
+  gap: 0 10px;
+}
+
+.input {
+  width: 45px;
+  height: 25px;
+  text-align: center;
+}
+
+.output {
+  display: flex;
+  justify-content: center;
+  gap: 0 30px;
+}
+
+.text {
+  font-size: 24px;
+}
