@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/text-analyzer/style.css">
+    <script src="../js/textAnalyzer.js" defer></script>
+    <title>Главная страница</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="header__title">Анализатор текста</h1>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="content">
+            <div class="container">
+                <div class="content__inner">
+                    <textarea class="content__textarea"></textarea>
+                    <div class="content__checkbox">
+                        <input type="checkbox" class="content__box">
+                        <input type="checkbox" class="content__box">
+                        <input type="checkbox" class="content__box">
+                        <input type="checkbox" class="content__box">
+                    </div>
+                    <p class="content__word-count text">Количество слов: <span></span></p>
+                    <p class="content__characters text">Количество символов: <span></span></p>
+                    <p class="content__characters-no-space text">Количество символов без пробелов: <span></span></p>
+                    <p class="content__character-percentage text">Процент символов: <span></span></p>
+                </div>
+                
+            </div>
+        </section>
+    </main>
+</body>
+</html>
