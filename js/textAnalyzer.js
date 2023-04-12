@@ -7,11 +7,12 @@ const contentBox = document.querySelectorAll('.content__box');
 
 
 const wordCount = () => {
-    let value = textArea.value.split(' ');
+    // let value = textArea.value.split(' ');
     
-    return value.filter(item => {
+    return textArea.value.split(' ').filter(item => {
         if(item != ' ') return item;
     })
+
 }
 
 const characters = () => {
@@ -30,7 +31,7 @@ const charactersPercentage = () => {
     let value = textArea.value.split('').filter(item => {
         if(item != ' ') return item;
     });
-
+    
     let valueLength = value.length;
 
     const characters = {};
